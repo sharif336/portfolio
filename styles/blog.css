@@ -195,5 +195,9 @@ main section {
     text-align: center;
     margin-top: 50px;
 }
-
-/*about section styles*/
+footer{
+    display: flex;
+    background-color: #f4d8c5;
+    margin-top: 50px;
+    padding: 130px 200px;
+}

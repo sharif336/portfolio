@@ -41,15 +41,34 @@ nav a {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
-    color:#fff;
+    color: #fff;
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
-   
+
 }
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
+
+}
+
+.header {
+    background-color: #f4d8c5;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-picture {
+    width: 500px;
+}
+.banner-content{
     
 }

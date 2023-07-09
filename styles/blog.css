@@ -197,7 +197,25 @@ main section {
 }
 footer{
     display: flex;
+    gap: 100px;
     background-color: #f4d8c5;
     margin-top: 50px;
     padding: 130px 200px;
+}
+.footer-column{
+    width: 50%;
+}
+.contact input[type="text"], .contact input[type="email"],
+ textarea{
+    display: block;
+     margin-bottom: 25px;
+     padding: 18px 35px;
+     color: #757575;
+     border-radius: 20px;
+     background-color: #FFF;
+     border: 0;
+     width: 100%;
+}
+.social-links a{
+    margin-right: 25px;
 }

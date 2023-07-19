@@ -219,3 +219,54 @@ footer{
 .social-links a{
     margin-right: 25px;
 }
+
+/* media query*/
+/*mobile device*/
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .container , .resume-container , .about-info-container, footer, .banner,nav,nav> ul {
+        flex-direction: column;
+    }
+     .header{
+        background-image: none;
+     }
+
+     .banner .profile-picture{
+        width: 100%;
+     }
+     .banner{
+        padding: 20px;
+     }
+    #what-I-do-description{
+        padding: 20px;
+    }
+    footer , .about{
+        padding: 10px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .btn-primary{
+        margin-bottom: 15px;
+    }
+    nav> ul{
+        gap: 10px;
+    }
+
+    .contact input[type="text"], .contact input[type="email"],
+     textarea{
+        width: 80%;
+     }
+    
+}
+@media screen and (min-width:576px) and (max-width:960) {
+    footer{
+        padding: 30px;
+    }
+    .btn-primary{
+       margin-bottom: 15px; 
+    }
+    
+}
